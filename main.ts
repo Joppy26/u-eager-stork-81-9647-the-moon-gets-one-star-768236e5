@@ -1,4 +1,5 @@
 import { mkdirSync, writeFileSync } from "node:fs";
-const LINE = "One star. Arrives late, borrows all its light from the Sun, and still hogs the night sky. Would not orbit again.";
+// Filed under: celestial objects with no manners.
+const LINE = "One star. A night light that never pays its own electric bill and still expects applause.";
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", LINE, "utf8");
